@@ -14,7 +14,7 @@ ______   __                                         __                          
                                              \$$    $$                                                                                           
                                               \$$$$$$     "
 
-apt update && apt upgrade
-apt install firefox kdenlive ckb-next libreoffice 
-cp update.sh /usr/local/bin/
-chmod +x /usr/local/bin/update.sh
+sudo apt update && apt upgrade
+sudo apt install firefox kdenlive ckb-next libreoffice piper
+sudo cp update.sh /usr/local/bin/
+sudo chmod +x /usr/local/bin/update.sh
